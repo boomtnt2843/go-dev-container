@@ -1,7 +1,11 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"myapp/libs"
+)
 
 func main() {
-	fmt.Println("test na")
+	fmt.Println("test")
+	libs.Greeting()
 }
